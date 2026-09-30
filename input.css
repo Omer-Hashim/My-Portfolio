@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-background: #FAFAFA;
+    --color-primary: #111827;
+    --color-secondary: #6B7280;
+    --color-accent: #4F46E5;
+    --color-accent-light: #EEF2FF;
+    --color-border: #E5E7EB;
+    --color-status: #22C55E;
+
+    --font-heading: "Space Grotesk", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+}
