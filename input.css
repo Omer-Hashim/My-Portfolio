@@ -13,3 +13,14 @@
     --font-body: "Inter", sans-serif;
     --font-mono: "JetBrains Mono", monospace;
 }
+
+@utility tag {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-mono);
+    background-color: var(--color-accent-light);
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    border-radius: 9999px;
+    white-space: nowrap;
+}
